@@ -14,7 +14,7 @@ sudo service apache2 restart
 ```
 
 ## Fixing the issue “API Error: EspoCRM API is unavailable”:
-
+1
 Take only necessary steps. After each step check if the issue is solved.
 
 ### 1. Enable “mod_rewrite” support in Apache

@@ -1,26 +1,45 @@
 # Workflows
+# Mga Daloy ng trabaho
 
 Workflows feature is available in [Advanced Pack](https://www.espocrm.com/extensions/advanced-pack/).
+Ang mga daloy na trabaho ay magagamit sa [Advanced Pack] ( https://www.espocrm.com/extensions/advanced-pack/).
 
 Workflows automate your business process an easy way. You can find it in the Administration panel. To create a workflow rule you need to define:
+Ang mga daloy ng trabahl ay naka-automate na sa iyong proseso ng negosyo para sa madaliang paraan. Maaring mong mahanap ito sa panel ng tagapangasiwa. Upang lumikha ng daloy ng trabaho na panuntunan kailangan mo itong tukuyin:
 
 * Target Entity - what entity type workflow is applied to;
-* Trigger Type - when workflow will be triggered;
+* Target ng Entidad - kung anong uri ng entidad na daloy na trabaho ay inilapat sa:
+
+* Trigger Type - when workflow will be triggered
+
+
+
+* Uri ng Trigger - kung ang dalot ng trabaho ay mag-trigger
 * Conditions - conditions need to be met to trigger workflow;
+
+* Mga kondisyon - mga kondisyon ay ngangailangan makabot sa daloy ng trabaho sa pag-trigger:
+
 * Actions - what to do if workflow is triggered.
+* Mga Aksyon - ano ang dapat gawin kung ang daloy ng trabaho ay na-trigger.
 
 
 ## Trigger Types
+## Mga Uri ng pag-trigger
 
 ### After record created 
+### Pagkatapos i-rekord ang nalikha
 
 Triggered only when a new record is created. If specified conditions are met then actions will be executed.
+Ang pag-trigger ay isa lamang kung ang bagong rejord ay nalikha. Kung natukoy na ang mga kondisyon ay nakabot pagkatapos nito ang mga aksyon ay naisakatuparan.
 
 ### After record saved
+### Pagkatapos na i-save ang rekord
 
 Triggered when a new record is created or an existing record is updated. If specified conditions are met then actions will be executed.
+Ang pag-trigger kung ang bagong rekord ay nalikha o sa umiiral na rekord ay na i-update. Kung natukoy ang mga kondisyon ay nakabot pagkatapod ang mga aksyon ay maisakatuparan.
 
 For workflow rules with this type of trigger it's a common practice to have a condition that checks whether some field was 'changed'. E.g. If Case's status is changed then execute some actions.
+Para mga panuntunan sa daloy ng trabaho sa uri ng pag-trigger ito ay isang karaniwang kasanayan ay maroong kondisyon na sinusuri ang 
 
 ### Scheduled
 
